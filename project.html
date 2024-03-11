@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Singers</title>
+	<style type="text/css">
+
+     #img1{
+      width:  200px;
+        height: 200px;
+     }
+
+     #img2{
+        width:  200px;
+        height: 200px;
+     
+     }
+
+     #brand{
+        height: 100px;
+        width: 300px;
+     }
+
+     .navbar{
+        padding: 2;
+     }
+
+     #topnav{
+        width: 50%;
+     }
+
+     .Button1{
+        cursor: pointer;
+     }
+
+     .FirstInput{
+        cursor: text;
+     }
+
+     .search-container{
+        width: 50%;
+     }
+     #div1{
+     	background-position: center;
+     }
+
+
+
+	</style>
+</head>
+<body>
+	<center>
+        <nav class="navbar navbar-expand-md bg-dark"></nav>
+      <a class="navbar-brand" href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrExyx9fvgbyPJgEvxtnwQEbH1Ep7SK2OGoA&usqp=CAU" id="brand"></a>
+
+      <div id="topnav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.famousbirthdays.com/">Home (Search for the celebrity that you want)</a>
+          </li>           
+        </ul>  
+      </div>
+
+     <div class="search-container">
+              <form>
+                <input type="search" placeholder="Search" name="search" class="FirstInput">
+                <button type="submit" class="Button1 btn-danger">Submit</button>
+              </form>
+      </div>
+
+
+    </nav>
+     
+      <h1>Favorite Artists</h1>
+
+
+
+ <div class="container">
+ <div class="row">
+  <table class="table table-dark table-hover" class="mx-auto-d-block">
+    <tr class="bg-dark">
+      <td id="bg1">
+     <div class="col-md-4">
+     <img id="img1" class="img-fluid-rounded" src="https://i.pinimg.com/originals/0a/cc/eb/0accebdff11834d339d842e58bacf377.jpg">
+     </div>
+ </td>
+</tr>
+
+
+<tr>
+ <td id="bg2">
+     <div class="col-md-4">
+     <img id="img2" class="img-fluid-rounded" src="https://i.pinimg.com/originals/06/4c/ec/064cecd2556b0944a6440764365c7cc9.jpg">  
+     </div>
+ </td>
+</tr>
+
+        <tr>
+            <td id="bg1">
+     <div class="col-md-4">
+        <h3>Sabrina Carpenter</h3>
+        <a> Description: Sabrina Annlynn Carpenter is an American singer and actress. She made her acting debut with an appearance in the television crime show Law & Order: Special Victims Unit and had a recurring role on Fox's The Goodwin Games.</a>
+     </div>
+ </td>
+
+      <tr>
+        <td id="bg1">
+          <div class="col-md-4">
+            <h3>SZA</h3>
+            <a>Description: Solána Imani Rowe, known professionally as SZA, is an American singer-songwriter.</a>
+          </div>
+        </td>
+
+     </table>
+ </div>
+
+
+     <form class="">
+          <div class="row">
+             <div class="col-">
+                <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email">
+             </div>
+             <div class="col">
+                <input type="password" class="password" placeholder="Enter Password"  name="">
+             </div>
+          </div>
+         <br>
+             </div>
+          </div>
+            <br>
+               <div class="row">
+                <div class="col">
+                <textarea class="form-control" rows="1" id="comment" name="comment" placeholder="Rate this from 1 to 10 and tell us what does the webiste need of improvement"></textarea>
+                </div>
+           <br>
+               <div class="col-md-6">
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary">Submit</button>               
+                </div>
+               </div>
+               <div class="col-md-6">
+                <div class="form-group">
+                        <div class="alert alert-danger" id="div1">
+                        <strong>Thank you so much for your rating!</strong>
+                        </div>
+                </div>
+               </div>
+
+     </form>
+
+
+</body>
+</html>
